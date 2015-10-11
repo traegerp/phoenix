@@ -1,0 +1,25 @@
+{
+  "name": "phoenix-daemon",
+  "version": "1.0.3",
+  "description": "daemon, auto restart node js scripts when updated",
+  "main": "phoenix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "daemon",
+    "restart",
+    "node",
+    "sysadmin",
+    "process",
+    "keepalive",
+    "alive",
+    "run"
+  ],
+ "preferGlobal": true,
+  "bin": {
+    "phoenix": "phoenix.js"
+  }, 
+  "author": "Patrick Traeger",
+  "license": "MIT"
+}
